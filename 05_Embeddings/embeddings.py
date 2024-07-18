@@ -59,6 +59,7 @@ def generate_bert_embeddings(text):
 def paralelo_bert(texts,model_name):
     print("inicia funcion")
     num_cores = cpu_count()
+
     #num_cores = max(1, num_cores - 2)  # Usa 2 núcleos menos que el total disponible
     print(f"Usando {num_cores} cores")
     pool = Pool(processes=num_cores, initializer=init_pool, initargs=(model_name,))
