@@ -2,3 +2,7 @@
 Proyecto-BI/
 /Data
 05_Embeddings/bert_embeddings.npy
+10_redes_neuronales_convolucionales/test_img.npy
+10_redes_neuronales_convolucionales/train_img.npy
+10_redes_neuronales_convolucionales/train_features.npy
+10_redes_neuronales_convolucionales/train_labels.npy
