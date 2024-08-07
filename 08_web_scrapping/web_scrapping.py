@@ -71,7 +71,7 @@ def process_link(link):
     
 if __name__ == '__main__':
         print('cargando links...')
-        link_total = pickle.load(open('link_total.pkl', 'rb'))
+        link_total = pickle.load(open('/data/link_total.pkl', 'rb'))
         print(f'links cargados: {len(link_total)}')
         # Número de procesos a utilizar (usaremos el número de núcleos lógicos de CPU)
         num_processes = cpu_count()
